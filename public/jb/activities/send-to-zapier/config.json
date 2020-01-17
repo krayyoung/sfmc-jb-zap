@@ -1,0 +1,67 @@
+{
+    "workflowApiVersion": "1.1",
+    "metaData": {
+        "version": "1.0",
+        "icon": "images/icon.png",
+        "iconSmall": "images/iconSmall.png",
+        "category": "customer"
+    },
+    "type": "REST",
+    "lang": {
+        "en-US": {
+            "name": "Send To Zapier",
+            "description": "A custom Journey Builder activity for sending contact's data to a Zapier endpoint (API v1.1)"
+        }
+    },
+    "arguments": {
+        "execute": {
+            "inArguments": [],
+            "outArguments": [],
+            "url": "https://zapier-jb-test.herokuapp.com/jb/activities/send-to-zapier/execute/",
+            "verb": "POST",
+            "body": "",
+            "header": "",
+            "format": "json",
+            "useJwt": false,
+            "timeout": 10000
+        }
+    },
+    "configurationArguments": {
+       "applicationExtensionKey": "D4F3B97E-1E12-405E-A9EC170BB6F94A46",
+       "defaults": { 
+            "method": "POST",
+            "format": "json" 
+        },
+        "validate": {
+            "url": "https://zapier-jb-test.herokuapp.com/jb/activities/send-to-zapier/validate/",
+            "body": "",
+            "verb": "POST",
+            "useJwt": false
+        },
+        "save": {
+            "url": "https://zapier-jb-test.herokuapp.com/jb/activities/send-to-zapier/save/",
+            "verb": "POST",
+            "body": "",
+            "useJwt": false
+        },
+        "publish": {
+           "url": "https://zapier-jb-test.herokuapp.com/jb/activities/send-to-zapier/publish/",
+            "body": "",
+            "verb": "POST",
+            "useJwt": false
+        }
+    },
+    "userInterfaces": {
+        "configModal": {
+            "height": 200,
+            "width": 500,
+            "fullscreen": false
+        },
+        "runningModal": {
+            "url": "runningModal.html"
+        },
+        "runningHover": {
+            "url": "runningHover.html"
+        }
+    }
+}
