@@ -17,7 +17,7 @@
         "execute": {
             "inArguments": [],
             "outArguments": [],
-            "url": "https://zapier-jb-test.herokuapp.com/jb/activities/send-to-zapier/execute/",
+            "url": "https://sfmc-jb-zap.herokuapp.com/jb/activities/send-to-zapier/execute/",
             "verb": "POST",
             "body": "",
             "header": "",
@@ -27,25 +27,25 @@
         }
     },
     "configurationArguments": {
-       "applicationExtensionKey": "D4F3B97E-1E12-405E-A9EC170BB6F94A46",
+       "applicationExtensionKey": "5a8b92f9-ef85-4c80-a308-d486811019c2",
        "defaults": { 
             "method": "POST",
             "format": "json" 
         },
         "validate": {
-            "url": "https://zapier-jb-test.herokuapp.com/jb/activities/send-to-zapier/validate/",
+            "url": "https://sfmc-jb-zap.herokuapp.com/jb/activities/send-to-zapier/validate/",
             "body": "",
             "verb": "POST",
             "useJwt": false
         },
         "save": {
-            "url": "https://zapier-jb-test.herokuapp.com/jb/activities/send-to-zapier/save/",
+            "url": "https://sfmc-jb-zap.herokuapp.com/jb/activities/send-to-zapier/save/",
             "verb": "POST",
             "body": "",
             "useJwt": false
         },
         "publish": {
-           "url": "https://zapier-jb-test.herokuapp.com/jb/activities/send-to-zapier/publish/",
+           "url": "https://sfmc-jb-zap.herokuapp.com/jb/activities/send-to-zapier/publish/",
             "body": "",
             "verb": "POST",
             "useJwt": false
